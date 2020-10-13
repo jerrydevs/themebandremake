@@ -1,0 +1,101 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  display: block;
+  margin: 0;
+  font: 400 15px/1.8 Montserrat, sans-serif;
+  color: #777;
+}
+
+.navbar {
+  opacity: 80%;
+  letter-spacing: 4px;
+}
+
+.nav-item {
+  padding: 0px 10px;
+}
+
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  padding: 70px;
+}
+
+#band-members-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#band-members-section p {
+  margin-bottom: 50px;
+}
+
+#band-member-image {
+  border-radius: 50px;
+}
+
+#tour-dates-section {
+  background: black;
+}
+
+.bg-dark {
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+#tour-schedule-blurb {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+#contact-form-button {
+  margin-top: 20px;
+  width: 20%;
+}
+
+#map-image {
+  width: 100%;
+}
+
+footer {
+  padding: 50px;
+}
+
+footer p {
+  margin: 0;
+}
